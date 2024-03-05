@@ -21,7 +21,7 @@ export const Display = ({ props }) => {
                 <h2>{ props.value.age }</h2>
             </div>
             <div style={ { display: "flex", direction: "row" } }>
-                <h2>occupation: </h2>
+                <h2>occupation/Work : </h2>
                 <h2>{ props.value.occupation }</h2>
                 <button onClick={ handledelete }> <AiTwotoneDelete /></button>
             </div>
